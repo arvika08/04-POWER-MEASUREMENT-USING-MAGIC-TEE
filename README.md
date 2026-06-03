@@ -10,14 +10,18 @@ Klystron power supply, Klystron Mount, Isolator, Attenuator, Frequency meter, VS
 
 **C.Experimental Setup:**
 
-<img width="701" height="358" alt="image" src="https://github.com/user-attachments/assets/8619d64e-d78f-49e2-b0f8-2e2dc038f6c9" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8619d64e-d78f-49e2-b0f8-2e2dc038f6c9" width="500">
+</p>
 
 **D.Theory:**
 
 A four port junction which is a combination of an E-plane and H-plane tee is called Hybrid Tee.When matched elements are introduced to reduce the reflections, it is called a magic Tee.
 It has four arms or ports which have the names indicated in figure 9.
 
-<img width="288" height="232" alt="image" src="https://github.com/user-attachments/assets/826d1e4f-cdf8-496a-b571-a34130bcd30b" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/826d1e4f-cdf8-496a-b571-a34130bcd30b" width="180">
+</p>
 
 The arm which makes an H-plane tee with the collinear arm is called H-arm or Shunt arm. The fourth arm which makes E-plane tee with the collinear arms is called E- arm or series arm. The shunt and series arms are polarized. i.e. the voltage vectors in these two arms are perpendicular toeach other. Therefore as long as there is nothing within the junction to rotate
 the polarization, there can be no coupling between the two arms. The E and H arms are matched byemploying posts and irises to minimize reflections from these two ports.
@@ -61,18 +65,26 @@ Coupling (dB) = 10 log10 PC1/ PH = -10 log10 PC2/ PH.
 The difference in the attenuator settings gives the ration of the
 power coupled to thecollinear to that in the main arm, in dB. This value is around 3dB.
 
-**F.	Observation: ( Include your own Table relevant to the Experiment)**
+**F.	Observation:**
 
-**Isolation measurement** (Tabulation)
+**Isolation measurement** 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2ad351ef-e3f1-438c-a8c8-2f0c78278a46" width="800">
+</p>
 
-**Measurement of power division** (Tabulation)
+
+**Measurement of power division** 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3bf25091-95e9-456d-bb7e-6a081c433004" width="800">
+</p>
 
 
-**G.	Analysis of Results: (Write your own)**
 
-(Include sample calculations/Display/plot/typical graph)
+**G.	Analysis of Results:**
 
-**H.	Conclusions: (Write your Own)**
+The measured power distribution showed correct sum and difference behavior between the E-arm and H-arm. A strong output at the sum port and a reduced/null output at the difference port confirmed proper phase characteristics. Slight deviations from ideal values occurred due to mismatching and insertion losses. Overall, the Magic Tee operated as expected for power combining and dividing.
+
+**H.	Conclusions:**
 
 Isolation between E and H arms (dB) = (A1 – A2) dB
 Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB
@@ -84,3 +96,4 @@ Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB
 •	Observation should be taken properly.
 
 **Result:**
+The Magic Tee correctly demonstrated sum and difference power behavior, with higher power at the sum port and reduced or null power at the difference port, validating its proper operation.
